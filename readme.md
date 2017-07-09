@@ -22,7 +22,8 @@ This is a small monitoring device. Ultimately I would like it to do:
 # Setup
 
 You will need a Raspberry Pi (this was designed for a Zero) with wifi access
-(or at least internet access)
+(or at least internet access). It should work with a normal Raspberry Pi, but
+I haven't tested that.
 
 ## Apt-Get
 
@@ -35,6 +36,10 @@ You will need a Raspberry Pi (this was designed for a Zero) with wifi access
 
     pip install -U pip setuptools wheel
     pip install -U -r requirements.txt
+
+## OpenCV
+
+    sudo dpkg -i libopencv-3.2.deb
 
 ## Service
 
