@@ -21,6 +21,9 @@ This is a small monitoring device. Ultimately I would like it to do:
 
 # Setup
 
+You will need a Raspberry Pi (this was designed for a Zero) with wifi access
+(or at least internet access)
+
 ## Apt-Get
 
     sudo apt-get update
@@ -32,3 +35,9 @@ This is a small monitoring device. Ultimately I would like it to do:
 
     pip install -U pip setuptools wheel
     pip install -U -r requirements.txt
+
+## Service
+
+To enable heimdall to run as a service on your Raspberry Pi, do:
+
+    sudo ./install-heimdall-service.sh
