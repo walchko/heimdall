@@ -1,2 +1,4 @@
 opencvutils
 numpy
+nxp_imu
+ins_nav
