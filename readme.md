@@ -3,9 +3,6 @@
 # Heimdall
 
 Heimdall is named after the Norse god who has the ability to see and hear everything.
-
-![](pics/mote-2.jpg)
-
 This is a small monitoring device. Ultimately I would like it to do:
 
 - monitor a room with the camera
@@ -17,7 +14,7 @@ This is a small monitoring device. Ultimately I would like it to do:
 | Name | Cost | Source |
 |---|---|---|
 | Pi Zero W | $10 | https://www.adafruit.com/product/3400 |
-| NXP IMU   | $14 | https://www.adafruit.com/product/3463 |
+| RPi Camera | $29 | https://www.adafruit.com/ |
 
 # Setup
 
@@ -36,10 +33,6 @@ I haven't tested that.
 
     pip install -U pip setuptools wheel
     pip install -U -r requirements.txt
-
-## OpenCV
-
-    sudo dpkg -i libopencv-3.2.deb
 
 ## Service
 
